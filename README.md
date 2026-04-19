@@ -1,5 +1,7 @@
 # 🎥 Social Video Downloader
 
+![Banner](assets/social-video-downloader-banner.png)
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Windows](https://img.shields.io/badge/Windows-10%2F11-blue)](https://microsoft.com)
@@ -171,3 +173,4 @@ Si te gusta este proyecto, ¡dale una estrella en GitHub! ⭐
 ---
 
 **Hecho con ❤️ para la comunidad**
+
