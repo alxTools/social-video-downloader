@@ -1,0 +1,54 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Videos descargados (ejemplos)
+*.mp4
+*.webm
+*.mkv
+*.mp3
+
+# Transcripciones generadas
+*.txt
+!requirements.txt
+
+# Directorios de salida
+YT_VIDEOS/
+IG_VIDEOS/
+TK_VIDEOS/
+FB_VIDEOS/

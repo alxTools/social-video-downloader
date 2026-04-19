@@ -1,0 +1,39 @@
+name: Create Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Create Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          body: |
+            ## 🎥 Social Video Downloader ${{ github.ref }}
+            
+            ### Incluye:
+            - YT Downloader (YouTube)
+            - IG Downloader (Instagram)
+            - TK Downloader (TikTok)
+            - FB Downloader (Facebook)
+            
+            ### Instalación:
+            1. Descarga el ZIP de "Source code"
+            2. Extrae y ejecuta `install.bat` como administrador
+            3. ¡Listo! Haz clic derecho en cualquier carpeta
+            
+            ### Changelog
+            Ver [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md)
+          draft: false
+          prerelease: false

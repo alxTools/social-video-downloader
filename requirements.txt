@@ -1,0 +1,6 @@
+# Social Video Downloader Requirements
+
+yt-dlp>=2024.1.0
+openai-whisper>=20231117
+torch>=2.0.0
+pydub>=0.25.1

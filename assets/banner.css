@@ -1,0 +1,69 @@
+:root {
+  --bg: #0d1117;
+  --text: #c9d1d9;
+  --accent: #58a6ff;
+  --green: #238636;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #ff0055, #ff9900, #00ccff, #9900ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: #8b949e;
+  margin-bottom: 2rem;
+}
+
+.platforms {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.badge {
+  background: #21262d;
+  border: 1px solid #30363d;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.badge.yt { border-color: #ff0000; color: #ff4d4d; }
+.badge.ig { border-color: #e1306c; color: #f56c9b; }
+.badge.tk { border-color: #00f2ea; color: #4df7ff; }
+.badge.fb { border-color: #1877f2; color: #5b9dfa; }
+
+.cta {
+  background: var(--green);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  display: inline-block;
+}

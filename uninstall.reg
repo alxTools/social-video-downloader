@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+; Uninstall Social Video Downloaders
+; Removes all context menu entries
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\YTDownloader]
+[-HKEY_CLASSES_ROOT\Directory\shell\YTDownloader]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\IGDownloader]
+[-HKEY_CLASSES_ROOT\Directory\shell\IGDownloader]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\TKDownloader]
+[-HKEY_CLASSES_ROOT\Directory\shell\TKDownloader]
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\FBDownloader]
+[-HKEY_CLASSES_ROOT\Directory\shell\FBDownloader]

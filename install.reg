@@ -1,0 +1,64 @@
+Windows Registry Editor Version 5.00
+
+; Install All Social Video Downloaders
+; Adds YT, IG, TK, and FB downloaders to Windows context menu
+
+; ==================== YT DOWNLOADER ====================
+[HKEY_CLASSES_ROOT\Directory\Background\shell\YTDownloader]
+@="YT Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\YTDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\yt-downloader.py\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\YTDownloader]
+@="YT Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\shell\YTDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\yt-downloader.py\" \"%1\""
+
+; ==================== IG DOWNLOADER ====================
+[HKEY_CLASSES_ROOT\Directory\Background\shell\IGDownloader]
+@="IG Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\IGDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\ig-downloader.py\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\IGDownloader]
+@="IG Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\shell\IGDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\ig-downloader.py\" \"%1\""
+
+; ==================== TK DOWNLOADER ====================
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TKDownloader]
+@="TK Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TKDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\tk-downloader.py\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\TKDownloader]
+@="TK Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\shell\TKDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\tk-downloader.py\" \"%1\""
+
+; ==================== FB DOWNLOADER ====================
+[HKEY_CLASSES_ROOT\Directory\Background\shell\FBDownloader]
+@="FB Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\FBDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\fb-downloader.py\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\FBDownloader]
+@="FB Downloader"
+"Icon"="%SystemRoot%\System32\shell32.dll,14"
+
+[HKEY_CLASSES_ROOT\Directory\shell\FBDownloader\command]
+@="\"C:\\Windows\\pyw.exe\" \"%USERPROFILE%\\Documents\\SocialVideoDownloader\\src\\fb-downloader.py\" \"%1\""
